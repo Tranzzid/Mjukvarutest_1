@@ -70,13 +70,14 @@ class Check4Prime {
             if (input == "") {
                 throw new Error("Din input kan inte vara tom")
             }
+            
+            // Get integer from character
+            
             // Is not integer? throw new Error();
             if (Number.isInteger(input) == false) {
                 throw new Error("Din input måste vara ett heltal")
             }
-
-            // Get integer from character
-
+            
             // If not a number throw new Error();
             if ( typeof input !== "number"){
                 throw new Error("Du kan bara kolla prime på siffror")
@@ -186,7 +187,7 @@ function test_Check4Prime_known_false() {
 function test_Check4Prime_checkArgs_neg_input() {
     check4prime = new Check4Prime();
     try {
-        check4prime.checkArgs("-1")
+        check4prime.checkArgs(-1)
     }
     catch(err) {
         assert(true, err)
@@ -196,35 +197,66 @@ function test_Check4Prime_checkArgs_neg_input() {
 // Test case 4, check for upper bound limit
 function test_Check4Prime_checkArgs_above_upper_bound() {
     check4prime = new Check4Prime();
-
+    try {
+        check4prime.checkArgs(1001)
+    }
+    catch(err) {
+        assert(true, err)
+    }
 }
 
 // Test case 5, check for char input
 function test_Check4Prime_checkArgs_char_input() {
     check4prime = new Check4Prime();
-
+    try {
+        check4prime.checkArgs("r")
+    }
+    catch(err) {
+        assert(true, err)
+    }
 }
 
 // Test case 6, check for more than one input
 function test_Check4Prime_checkArgs_2_inputs() {
     check4prime = new Check4Prime();
-
+    try {
+        check4prime.checkArgs(1, 2)
+    }
+    catch(err) {
+        assert(true, err)
+    }
 }
 
 // Test case 7, check for zero/empty input
 function test_Check4Prime_checkArgs_zero_input() {
     check4prime = new Check4Prime();
-
+    try {
+        check4prime.checkArgs(0)
+    }
+    catch(err) {
+        assert(true, err)
+    }
 }
 
 // Test case 8, check for undefined input
 function test_Check4Prime_checkArgs_undefined_input() {
     check4prime = new Check4Prime();
-
+    try {
+        check4prime.checkArgs(undefined)
+    }
+    catch(err) {
+        assert(true, err)
+    }
 }
 
 // Test case 9, check for non-integer input
 function test_Check4Prime_checkArgs_non_integer_input() {
     check4prime = new Check4Prime();
-
+    try {
+        //check4prime.checkArgs("4.24")
+        check4prime.checkArgs("4,24")
+    }
+    catch(err) {
+        assert(true, err)
+    }
 }
