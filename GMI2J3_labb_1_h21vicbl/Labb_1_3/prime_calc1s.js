@@ -14,6 +14,9 @@ class Check4Prime {
     /*
     Calculates prime numbers and put true or false in an array
     */
+
+    
+
     primeCheck(num) {
         // Initialize array to hold prime numbers
         let primeBucket = new Array(max + 1);
@@ -73,22 +76,26 @@ class Check4Prime {
             
             // Get integer from character
             
+
+            // If not a number throw new Error();
+            if ( typeof input !== "number"){
+                throw new Error("Du kan bara kolla prime på siffror")
+            }
+
+
             // Is not integer? throw new Error();
             if (Number.isInteger(input) == false) {
                 throw new Error("Din input måste vara ett heltal")
             }
             
-            // If not a number throw new Error();
-            if ( typeof input !== "number"){
-                throw new Error("Du kan bara kolla prime på siffror")
-            }
+
             // If less than lower bounds throw new Error();
             if (input < 0) {
                 throw new Error("Din input är för låg, får vara lägst 0")
             }
             // If greater than upper bounds throw new Error();
             if (input > 1000) {
-                throw new Error("Din input är för hör, får vara högst 1000")
+                throw new Error("Din input är för hög, får vara högst 1000")
             }
         }
     }
@@ -254,7 +261,7 @@ function test_Check4Prime_checkArgs_non_integer_input() {
     check4prime = new Check4Prime();
     try {
         //check4prime.checkArgs("4.24")
-        check4prime.checkArgs("4,24")
+        check4prime.checkArgs(4.24)
     }
     catch(err) {
         assert(true, err)
