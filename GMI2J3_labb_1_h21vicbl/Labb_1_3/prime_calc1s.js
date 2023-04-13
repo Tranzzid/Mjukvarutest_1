@@ -5,41 +5,35 @@ student version with NO assertion tests or refactoring implemented
 const max = 1000;   // Set upper bounds
 const min = 0;      // Set lower bounds
 let check4prime;    // global object
+let primeBucket = new Array(max + 1); // Initialize array to hold prime numbers
 
-//function make_Object_Of_Check4Prime() {
-  //  check4prime = new Check4Prime()
-//}
+function fillPrimeBucket(){
+    check4prime = new Check4Prime();
+    for (let i = 2; i <= max; i++) {
+        primeBucket[i] = true;
+    }
+    for (let i = 3; i <= max; i++) {
+        // Check if its a multiple of 2
+        if (i % 2 === 0) {
+            primeBucket[i] = false;
+        } 
+        // Otherwise check if its a multiple of any the numbers below its own squareroot
+        else {
+            const sqrt = Math.floor(Math.sqrt(i));
+            for (let j = 3; j <= sqrt; j++) {
+                if (i % j === 0) {
+                    primeBucket[i] = false;
+                }
+            }
+        }
+    }
+}
 
 class Check4Prime {
     /*
     Calculates prime numbers and put true or false in an array
     */
-
-    
-
     primeCheck(num) {
-        // Initialize array to hold prime numbers
-        let primeBucket = new Array(max + 1);
-
-        // Initialize all elements to true, non-primes will be set to false later
-        for (let i = 2; i <= max; i++) {
-            primeBucket[i] = true;
-        }
-
-        // Do all multiples of 2 first
-        let j = 2;
-        for (let i = j+j; i <= max; i = i+j) { // start with 2j as 2 is prime
-            primeBucket[i] = false; // set all multiples of 2 to false
-        }
-
-        for (j = 3; j <= max; j = j+2) { // begin from 3 up to max
-            if (primeBucket[j] == true) { // only do if primeBucket[j] is still a prime (not a multiple of 3, 5, 7, ...)
-                for (let i = j+j; i <= max; i = i+j) { // start with 2j as j is a prime
-                    primeBucket[i] = false; // set all multiples of the prime to false
-                }
-            }
-        }
-
         // Check input against prime array
         if (primeBucket[num] == true) {
             return true;
