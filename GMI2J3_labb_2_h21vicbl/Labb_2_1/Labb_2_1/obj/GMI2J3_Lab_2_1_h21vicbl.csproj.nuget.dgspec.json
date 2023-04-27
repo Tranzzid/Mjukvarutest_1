@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\victo\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_2_h21vicbl\\Labb_2_1\\GMI2J3_Lab_2_1_h21vicbl.csproj": {}
+    "C:\\Users\\victo\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_2_h21vicbl\\Labb_2_1\\Labb_2_1\\GMI2J3_Lab_2_1_h21vicbl.csproj": {}
   },
   "projects": {
-    "C:\\Users\\victo\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_2_h21vicbl\\Labb_2_1\\GMI2J3_Lab_2_1_h21vicbl.csproj": {
+    "C:\\Users\\victo\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_2_h21vicbl\\Labb_2_1\\Labb_2_1\\GMI2J3_Lab_2_1_h21vicbl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victo\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_2_h21vicbl\\Labb_2_1\\GMI2J3_Lab_2_1_h21vicbl.csproj",
+        "projectUniqueName": "C:\\Users\\victo\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_2_h21vicbl\\Labb_2_1\\Labb_2_1\\GMI2J3_Lab_2_1_h21vicbl.csproj",
         "projectName": "GMI2J3_Lab_2_1_h21vicbl",
-        "projectPath": "C:\\Users\\victo\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_2_h21vicbl\\Labb_2_1\\GMI2J3_Lab_2_1_h21vicbl.csproj",
+        "projectPath": "C:\\Users\\victo\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_2_h21vicbl\\Labb_2_1\\Labb_2_1\\GMI2J3_Lab_2_1_h21vicbl.csproj",
         "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victo\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_2_h21vicbl\\Labb_2_1\\obj\\",
+        "outputPath": "C:\\Users\\victo\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_2_h21vicbl\\Labb_2_1\\Labb_2_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

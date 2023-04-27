@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OC1Wjbye38d00ndXqCbV+ffvCWT6h+QNG10li0Yh6nHD8mYHp37Y/AvYorGFWCke/KdFLLdbbpO64oxbIJJz9Q==",
+  "dgSpecHash": "PHoE1DSS6NyvcH9SnxxoZA6QERVW32CXpU2T4aBn3sb7F3g+QBZXRB/nbDoVxM1Wb/DLZ68r56RN/L8DzWwcyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\victo\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_2_h21vicbl\\BankTests\\BankTests.csproj",
+  "projectFilePath": "C:\\Users\\victo\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_2_h21vicbl\\Labb_2_1\\BankTests\\BankTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\victo\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\victo\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
