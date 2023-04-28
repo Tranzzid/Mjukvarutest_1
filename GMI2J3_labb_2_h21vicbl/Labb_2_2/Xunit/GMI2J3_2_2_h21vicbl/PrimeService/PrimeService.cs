@@ -6,7 +6,11 @@ namespace GMI2J3_2_2_h21vicbl
     {
         public bool IsPrime(int candidate)
         {
-            throw new NotImplementedException("Not implemented");
+            if (candidate < 2) 
+            {
+                return false;
+            }
+            throw new NotImplementedException("Not fully implemented");
         }
 
     }

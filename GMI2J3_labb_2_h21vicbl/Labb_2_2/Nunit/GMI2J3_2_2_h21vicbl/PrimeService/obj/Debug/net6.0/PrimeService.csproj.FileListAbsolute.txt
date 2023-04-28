@@ -1,0 +1,12 @@
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_2\Nunit\GMI2J3_2_2_h21vicbl\PrimeService\bin\Debug\net6.0\PrimeService.deps.json
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_2\Nunit\GMI2J3_2_2_h21vicbl\PrimeService\bin\Debug\net6.0\PrimeService.dll
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_2\Nunit\GMI2J3_2_2_h21vicbl\PrimeService\bin\Debug\net6.0\PrimeService.pdb
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_2\Nunit\GMI2J3_2_2_h21vicbl\PrimeService\obj\Debug\net6.0\PrimeService.csproj.AssemblyReference.cache
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_2\Nunit\GMI2J3_2_2_h21vicbl\PrimeService\obj\Debug\net6.0\PrimeService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_2\Nunit\GMI2J3_2_2_h21vicbl\PrimeService\obj\Debug\net6.0\PrimeService.AssemblyInfoInputs.cache
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_2\Nunit\GMI2J3_2_2_h21vicbl\PrimeService\obj\Debug\net6.0\PrimeService.AssemblyInfo.cs
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_2\Nunit\GMI2J3_2_2_h21vicbl\PrimeService\obj\Debug\net6.0\PrimeService.csproj.CoreCompileInputs.cache
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_2\Nunit\GMI2J3_2_2_h21vicbl\PrimeService\obj\Debug\net6.0\PrimeService.dll
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_2\Nunit\GMI2J3_2_2_h21vicbl\PrimeService\obj\Debug\net6.0\refint\PrimeService.dll
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_2\Nunit\GMI2J3_2_2_h21vicbl\PrimeService\obj\Debug\net6.0\PrimeService.pdb
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_2\Nunit\GMI2J3_2_2_h21vicbl\PrimeService\obj\Debug\net6.0\ref\PrimeService.dll
