@@ -1,0 +1,15 @@
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_3\RomanNumeralsTest_Labb_2_3\RomanNumeralsTest_Labb_2_3\obj\Debug\net6.0\RomanNumeralsTest_Labb_2_3.csproj.AssemblyReference.cache
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_3\RomanNumeralsTest_Labb_2_3\RomanNumeralsTest_Labb_2_3\obj\Debug\net6.0\RomanNumeralsTest_Labb_2_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_3\RomanNumeralsTest_Labb_2_3\RomanNumeralsTest_Labb_2_3\obj\Debug\net6.0\RomanNumeralsTest_Labb_2_3.AssemblyInfoInputs.cache
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_3\RomanNumeralsTest_Labb_2_3\RomanNumeralsTest_Labb_2_3\obj\Debug\net6.0\RomanNumeralsTest_Labb_2_3.AssemblyInfo.cs
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_3\RomanNumeralsTest_Labb_2_3\RomanNumeralsTest_Labb_2_3\obj\Debug\net6.0\RomanNumeralsTest_Labb_2_3.csproj.CoreCompileInputs.cache
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_3\RomanNumeralsTest_Labb_2_3\RomanNumeralsTest_Labb_2_3\bin\Debug\net6.0\RomanNumeralsTest_Labb_2_3.exe
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_3\RomanNumeralsTest_Labb_2_3\RomanNumeralsTest_Labb_2_3\bin\Debug\net6.0\RomanNumeralsTest_Labb_2_3.deps.json
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_3\RomanNumeralsTest_Labb_2_3\RomanNumeralsTest_Labb_2_3\bin\Debug\net6.0\RomanNumeralsTest_Labb_2_3.runtimeconfig.json
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_3\RomanNumeralsTest_Labb_2_3\RomanNumeralsTest_Labb_2_3\bin\Debug\net6.0\RomanNumeralsTest_Labb_2_3.dll
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_3\RomanNumeralsTest_Labb_2_3\RomanNumeralsTest_Labb_2_3\bin\Debug\net6.0\RomanNumeralsTest_Labb_2_3.pdb
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_3\RomanNumeralsTest_Labb_2_3\RomanNumeralsTest_Labb_2_3\obj\Debug\net6.0\RomanNumeralsTest_Labb_2_3.dll
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_3\RomanNumeralsTest_Labb_2_3\RomanNumeralsTest_Labb_2_3\obj\Debug\net6.0\refint\RomanNumeralsTest_Labb_2_3.dll
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_3\RomanNumeralsTest_Labb_2_3\RomanNumeralsTest_Labb_2_3\obj\Debug\net6.0\RomanNumeralsTest_Labb_2_3.pdb
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_3\RomanNumeralsTest_Labb_2_3\RomanNumeralsTest_Labb_2_3\obj\Debug\net6.0\RomanNumeralsTest_Labb_2_3.genruntimeconfig.cache
+C:\Users\victo\Documents\GitHub\Mjukvarutest_1\GMI2J3_labb_2_h21vicbl\Labb_2_3\RomanNumeralsTest_Labb_2_3\RomanNumeralsTest_Labb_2_3\obj\Debug\net6.0\ref\RomanNumeralsTest_Labb_2_3.dll
