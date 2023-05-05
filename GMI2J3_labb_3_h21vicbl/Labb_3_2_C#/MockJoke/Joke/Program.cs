@@ -3,18 +3,17 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Net.Http.Json;
 
-class Program
+public class WebAPI
 {
-    static HttpClient client = new HttpClient();
-    static Random rand = new Random();
+    public HttpClient client = new HttpClient();
 
-    static async Task<int> LenJokeAsync()
+    public async Task<int> LenJokeAsync()
     {
         string joke = await GetJokeAsync();
         return joke.Length;
     }
 
-    static async Task<string> GetJokeAsync()
+	public async Task<string> GetJokeAsync()
     {
         string url = "https://api.chucknorris.io/jokes/random";
         string joke = "";
@@ -35,9 +34,13 @@ class Program
         return joke;
     }
 
-    static async Task Main(string[] args)
+	public static async Task Main(string[] args)
     {
-        string joke = await GetJokeAsync();
+        var WebApi = new WebAPI();
+        string joke = await WebApi.GetJokeAsync();
+        int lenght = await WebApi.LenJokeAsync();
         Console.WriteLine(joke);
+		Console.WriteLine($"The lenght of the joke is: {lenght}");
+
     }
 }
