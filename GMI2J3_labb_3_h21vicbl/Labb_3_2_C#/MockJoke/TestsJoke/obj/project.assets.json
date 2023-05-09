@@ -1445,19 +1445,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Victor.Blomkvist\\.nuget\\packages\\": {}
+    "C:\\Users\\victo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Victor.Blomkvist\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_3_h21vicbl\\Labb_3_2_C#\\MockJoke\\TestsJoke\\TestsJoke.csproj",
+      "projectUniqueName": "C:\\Users\\victo\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_3_h21vicbl\\Labb_3_2_C#\\MockJoke\\TestsJoke\\TestsJoke.csproj",
       "projectName": "TestsJoke",
-      "projectPath": "C:\\Users\\Victor.Blomkvist\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_3_h21vicbl\\Labb_3_2_C#\\MockJoke\\TestsJoke\\TestsJoke.csproj",
-      "packagesPath": "C:\\Users\\Victor.Blomkvist\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Victor.Blomkvist\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_3_h21vicbl\\Labb_3_2_C#\\MockJoke\\TestsJoke\\obj\\",
+      "projectPath": "C:\\Users\\victo\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_3_h21vicbl\\Labb_3_2_C#\\MockJoke\\TestsJoke\\TestsJoke.csproj",
+      "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\victo\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_3_h21vicbl\\Labb_3_2_C#\\MockJoke\\TestsJoke\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Victor.Blomkvist\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1471,8 +1471,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Victor.Blomkvist\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_3_h21vicbl\\Labb_3_2_C#\\MockJoke\\Joke\\Joke.csproj": {
-              "projectPath": "C:\\Users\\Victor.Blomkvist\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_3_h21vicbl\\Labb_3_2_C#\\MockJoke\\Joke\\Joke.csproj"
+            "C:\\Users\\victo\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_3_h21vicbl\\Labb_3_2_C#\\MockJoke\\Joke\\Joke.csproj": {
+              "projectPath": "C:\\Users\\victo\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_3_h21vicbl\\Labb_3_2_C#\\MockJoke\\Joke\\Joke.csproj"
             }
           }
         }

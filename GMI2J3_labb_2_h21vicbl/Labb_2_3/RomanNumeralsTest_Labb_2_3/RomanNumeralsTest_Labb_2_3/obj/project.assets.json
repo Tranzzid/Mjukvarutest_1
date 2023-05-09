@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Victor.Blomkvist\\.nuget\\packages\\": {}
+    "C:\\Users\\victo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Victor.Blomkvist\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_2_h21vicbl\\Labb_2_3\\RomanNumeralsTest_Labb_2_3\\RomanNumeralsTest_Labb_2_3\\RomanNumeralsTest_Labb_2_3.csproj",
+      "projectUniqueName": "C:\\Users\\victo\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_2_h21vicbl\\Labb_2_3\\RomanNumeralsTest_Labb_2_3\\RomanNumeralsTest_Labb_2_3\\RomanNumeralsTest_Labb_2_3.csproj",
       "projectName": "RomanNumeralsTest_Labb_2_3",
-      "projectPath": "C:\\Users\\Victor.Blomkvist\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_2_h21vicbl\\Labb_2_3\\RomanNumeralsTest_Labb_2_3\\RomanNumeralsTest_Labb_2_3\\RomanNumeralsTest_Labb_2_3.csproj",
-      "packagesPath": "C:\\Users\\Victor.Blomkvist\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Victor.Blomkvist\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_2_h21vicbl\\Labb_2_3\\RomanNumeralsTest_Labb_2_3\\RomanNumeralsTest_Labb_2_3\\obj\\",
+      "projectPath": "C:\\Users\\victo\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_2_h21vicbl\\Labb_2_3\\RomanNumeralsTest_Labb_2_3\\RomanNumeralsTest_Labb_2_3\\RomanNumeralsTest_Labb_2_3.csproj",
+      "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\victo\\Documents\\GitHub\\Mjukvarutest_1\\GMI2J3_labb_2_h21vicbl\\Labb_2_3\\RomanNumeralsTest_Labb_2_3\\RomanNumeralsTest_Labb_2_3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Victor.Blomkvist\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

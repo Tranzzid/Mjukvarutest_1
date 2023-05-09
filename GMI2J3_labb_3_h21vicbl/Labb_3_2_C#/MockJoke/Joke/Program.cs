@@ -3,44 +3,61 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Net.Http.Json;
 
-public class WebAPI
+namespace Joke
 {
-    public HttpClient client = new HttpClient();
-
-    public async Task<int> LenJokeAsync()
+    public interface IWebApi
     {
-        string joke = await GetJokeAsync();
-        return joke.Length;
+        public int LenJoke();
+
+        public int LenJoke(string joke);
+
+        public string GetJoke();
     }
-
-	public async Task<string> GetJokeAsync()
+    public class WebAPI : IWebApi
     {
-        string url = "https://api.chucknorris.io/jokes/random";
-        string joke = "";
+        public HttpClient client = new HttpClient();
 
-        HttpResponseMessage response = await client.GetAsync(url);
-
-        if (response.IsSuccessStatusCode)
+        public int LenJoke(string joke)
         {
-            var answer = response.Content.ReadAsStringAsync().Result;
-            var result = Newtonsoft.Json.Linq.JObject.Parse(answer);
-            joke = (string)result["value"];
-        }
-        else
-        {
-            joke = "No jokes are available";
+            return joke.Length;
         }
 
-        return joke;
-    }
+        public int LenJoke()
+        {
+            string joke = GetJoke();
+            return joke.Length;
+        }
 
-	public static async Task Main(string[] args)
-    {
-        var WebApi = new WebAPI();
-        string joke = await WebApi.GetJokeAsync();
-        int lenght = await WebApi.LenJokeAsync();
-        Console.WriteLine(joke);
-		Console.WriteLine($"The lenght of the joke is: {lenght}");
+        public string GetJoke()
+        {
+            string url = "https://api.chucknorris.io/jokes/random";
+            string joke = "";
 
+            HttpResponseMessage response = client.GetAsync(url).Result;
+
+            if (response.IsSuccessStatusCode)
+            {
+                var answer = response.Content.ReadAsStringAsync().Result;
+                var result = Newtonsoft.Json.Linq.JObject.Parse(answer);
+                joke = (string)result["value"];
+            }
+            else
+            {
+                joke = "No jokes are available";
+            }
+
+            return joke;
+        }
+
+        public static async Task Main(string[] args)
+        {
+            var WebApi = new WebAPI();
+            string joke = WebApi.GetJoke();
+            int lenght = WebApi.LenJoke(joke);
+            Console.WriteLine(joke);
+            Console.WriteLine($"The lenght of the joke is: {lenght}");
+
+        }
     }
 }
+
